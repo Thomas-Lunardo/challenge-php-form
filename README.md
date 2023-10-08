@@ -5,7 +5,7 @@ Welcome on my php form challenge
 ## Live demo
 
 A live demo is available below
-http://localhost:8000/form.php/
+http://localhost:8000/form.php
 
 ## How does it work ?
 
