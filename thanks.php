@@ -25,6 +25,9 @@ if (empty($data['phone'])){
 if (strlen($_POST['phone']) < 10){
     $errors[] = 'Le format du téléphone est inexact';
 }
+if (empty($data['selectItem'])){
+    $errors[] = 'Le sujet de votre demande doit être renseigné';
+}
 if (strlen($_POST['message']) < 30){
     $errors[] = 'L\'objet du message doit contenir plus de 30 caractères';
 }
