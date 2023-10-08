@@ -1,32 +1,5 @@
 <?php
 
-// $errors = [];
-// $data = array($_POST);
-
-// if($_SERVER['REQUEST_METHOD'] == 'POST') {
-//     // nettoyage et validation des données soumises via le formulaire 
-//     if(!isset($_POST['lastname']) || trim($_POST['lastname']) === '') 
-//         $errors[] = 'Le nom est obligatoire';
-//     if(!isset($_POST['firstname']) || trim($_POST['firstname']) === '') 
-//         $errors[] = 'Le prénom est obligatoire';
-//     if(!isset($_POST['email']) || trim($_POST['email']) === '')
-//         $errors[] = 'L\'email est obligatoire';
-//     if (!filter_var('bob@example.com', FILTER_VALIDATE_EMAIL))
-//         $errors[] = 'Le format de l\'email est inexact';
-//     if(!isset($_POST['phone']) || trim($_POST['phone']) === '') 
-//         $errors[] = 'Le téléphone est obligatoire';
-//     if(!isset($_POST['selectItem']) || trim($_POST['selectItem']) === '') 
-//         $errors[] = 'L\'objet de votre demande est obligatoire';
-//     if(!isset($_POST['message']) || trim($_POST['message']) === '') 
-//         $errors[] = 'Message explicant votre demande obligatoire';
-
-//     if(empty($errors)) {
-//         // traitement du formulaire
-//         // puis redirection
-//         header('Location: thanks.php');
-//     }
-// }
-
 $errors = [];
 $data = array_map('trim', $_POST);
 
