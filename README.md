@@ -9,8 +9,8 @@ http://localhost:8000/form.php/
 
 ## How does it work ?
 
-Type what ever you want on those inputs.
-You will have error message as long as we put wrong input.
+Type whatever you want on those inputs.
+You will have error message as long as we write wrong input.
 When the form is correct you will be redirected on the thanks.php page.
 
 Have fun
