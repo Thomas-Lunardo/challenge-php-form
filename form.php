@@ -1,5 +1,3 @@
-<!-- http://localhost:8000/form.php -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
